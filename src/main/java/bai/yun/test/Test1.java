@@ -26,12 +26,12 @@ public class Test1 extends BaseTest {
     public static void beforeClassTest1() throws MalformedURLException {
         LogUtil.i(" -> baibai--Test1: beforeClassTest1");
 
-        DesiredCapabilities capabilities = new DesiredCapabilities();
-        capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, TestConfig.DEVICE_NAME);
-        capabilities.setCapability(Constant.CAPABILITY_APP_PACKAGE, TestConfig.APP_PACKAGE);
-        capabilities.setCapability(Constant.CAPABILITY_APP_ACTIVITY, TestConfig.APP_ACTIVITY);
-        driver = new AndroidDriver<AndroidElement>(new URL(TestConfig.SERVER_URL), capabilities);
-        WaitUtil.init(driver);
+//        DesiredCapabilities capabilities = new DesiredCapabilities();
+//        capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, TestConfig.DEVICE_NAME);
+//        capabilities.setCapability(Constant.CAPABILITY_APP_PACKAGE, TestConfig.APP_PACKAGE);
+//        capabilities.setCapability(Constant.CAPABILITY_APP_ACTIVITY, TestConfig.APP_ACTIVITY);
+//        driver = new AndroidDriver<AndroidElement>(new URL(TestConfig.SERVER_URL), capabilities);
+//        WaitUtil.init(driver);
     }
 
     @Test
